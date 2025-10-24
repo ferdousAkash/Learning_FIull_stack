@@ -1,0 +1,44 @@
+
+CSS selectors
+1. Element selectors
+Ex: h2{
+    background:red;
+}
+2. Class Selectors 
+   CSS:
+    .rong-lal{
+        color:red;
+    }
+   HTML:
+    <h1 class="rong-lal"> This is red </h2>
+3. ID Selectors
+   CSS:
+    #main{
+        color:blue;
+    }
+   HTML:
+    <h2 id="main"> This is Blue</h2>
+4. Attribute Selectors
+   CSS:
+    p[dragable="false"]{
+        color:red;
+    }
+   HTML:
+    <p dragable="true"> Dont drag me</p>
+    <p dragable="false"> Dont drag me</p>
+    <p dragable="false"> Dont drag me</p>
+
+5. All Attribute
+   CSS: 
+    *{
+        color:red;
+    } 
+
+
+
+
+    ID                 vs         Class
+1. Used forOne element      1. Used forMultiple element
+ in the entire html         in the entire HTML
+ 
+2. Unique                   2. Not Unique
