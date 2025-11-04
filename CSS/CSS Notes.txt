@@ -1,5 +1,37 @@
+CSS add:
+1. Inline 
+    Ex: HTML:
+    <html style="background:blue">
+        </html>
+2. Internal 
+    Ex: HTML:
+    <html>
+        <head></head>
+        <body>
+            <style>
+                html{
+                    background:blue;
+                }    
+        <body>
+    </html>
+3. External
+    Ex: HTML:
+    <head>
+        <meta charset="utf-8">
+        <title> </title>
+        <link rel="stylesheet" href="./style.css/>
+    </head>
+    <body>
+        <h2> Hello world </h2>
+    </body>
+    CSS:
+    h2{
+        color:blue;
+    }
 
-CSS selectors
+
+
+CSS selectors:
 1. Element selectors
 Ex: h2{
     background:red;
@@ -42,3 +74,10 @@ Ex: h2{
  in the entire html         in the entire HTML
  
 2. Unique                   2. Not Unique
+
+
+
+
+Font size:
+    1px             1pt                 1em             1rem
+1/96 of 1 inch    1/72 of 1 inch    100% of parent     100% of root
